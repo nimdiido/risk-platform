@@ -68,10 +68,10 @@ The system processes transactions in **milliseconds**, combining scores from mul
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                          GO API GATEWAY (Gin)                               │
 │                              Port: 8080                                     │
-│  ┌─────────────────────────────────────────────────────────────────────┐   │
-│  │  • Request Validation    • Feature Extraction    • Parallel Calls   │   │
-│  │  • Redis Caching         • Decision Engine       • Response Format  │   │
-│  └─────────────────────────────────────────────────────────────────────┘   │
+│  ┌─────────────────────────────────────────────────────────────────────┐    │
+│  │  • Request Validation    • Feature Extraction    • Parallel Calls   │    │
+│  │  • Redis Caching         • Decision Engine       • Response Format  │    │
+│  └─────────────────────────────────────────────────────────────────────┘    │
 └────────────────────────┬─────────────────────────┬──────────────────────────┘
                          │                         │
             ┌────────────┘                         └────────────┐
